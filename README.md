@@ -26,6 +26,16 @@ Ensure you have the following installed on your system:
 ```bash
   npm install
 ```
+- Build the project for production:
+- 
+```bash
+  npm run build
+```
+- Preview the production build:
+
+```bash
+  npm run preview
+```
 - Start the development server:
 
 ```bash
@@ -37,5 +47,12 @@ Open [http://localhost:5173](http://localhost:5173) with your browser to see the
 ## Deployment
 
 To deploy this project run
+```bash
+ npm i -g vercel
+ vercel init vite
+ Vercel CLI
+ Success! Initialized "vite" example in ~/your-folder.
+ - To deploy, `cd vite` and run `vercel`.
+```
 
 
