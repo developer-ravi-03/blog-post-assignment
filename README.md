@@ -46,7 +46,7 @@ Open [http://localhost:5173](http://localhost:5173) with your browser to see the
     
 ## Deployment
 
-To deploy this project run
+To deploy this project run:
 ```bash
  npm i -g vercel
  vercel init vite
@@ -54,5 +54,6 @@ To deploy this project run
  Success! Initialized "vite" example in ~/your-folder.
  - To deploy, `cd vite` and run `vercel`.
 ```
+- [VITE](https://vite.dev/guide/static-deploy.html) read this docs.
 
 
